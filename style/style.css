@@ -115,6 +115,42 @@ main{
 }
 
 .plan_item:hover{
-    color: #005FAC;
+    color: #3ec0ec;
 
 }
+
+/* Next Year Plan section CSS Design Start */
+.next_year_plan_container{
+    text-align: center;
+    margin-top: 133px;
+    margin-bottom: 133px;
+}
+.next_year_all_item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.next_year_item{
+    width: 15%;
+    height: 300px;
+    border-radius: 10px;
+    /* background-color: rgb(247, 247, 243); */
+    background-color: #f4f8f9;
+    text-align: center;
+}
+.next_year_item:hover{
+    color: white;
+    background-color: #3fc0e8;
+}
+.next_year_img{
+    margin-top: 70px;
+    margin-bottom: 10px;
+    height: 80px;
+    width: 80px;
+}
+.next_year_title{
+
+}
+
+/* Positive Mindset section CSS Design Start */
