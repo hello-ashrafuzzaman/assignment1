@@ -59,8 +59,8 @@ main {
   margin-left: 90px;
 }
 .failures_title {
-  font-size: 40px;
-  font-weight: 700;
+  font-size: 50px;
+  font-weight: bolder;
 }
 .failures_description {
   font-size: 18px;
@@ -89,8 +89,8 @@ main {
   margin-bottom: 133px;
 }
 .plan_head_title {
-  font-weight: 700;
-  font-size: 40px;
+  font-weight: 900;
+  font-size: 50px;
   margin-bottom: 80px;
 }
 .all_plan_item {
@@ -100,7 +100,7 @@ main {
   text-align: center;
 }
 .plan_title {
-  font-weight: 700;
+  font-weight: 900;
   font-size: 30px;
   margin-top: 20px;
 }
@@ -146,8 +146,6 @@ main {
   height: 80px;
   width: 80px;
 }
-.next_year_title {
-}
 
 /* Positive Mindset section CSS Design Start */
 .positive_content {
@@ -160,12 +158,12 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 10px;
-  padding: 100px;
+  padding: 70px;
 }
 .posstive_title {
   color: white;
-  font-weight: 800;
-  font-size: 40px;
+  font-weight: 900;
+  font-size: 50px;
 }
 .call_btn {
   background-color: white;
@@ -186,7 +184,8 @@ main {
 footer {
   background-color: black;
   color: white;
-  padding: 130px;
+  padding-top: 80px;
+  padding-bottom: 30px;
 }
 .main_size {
   max-width: 1440px;
@@ -212,26 +211,33 @@ footer {
   font-size: 40px;
   font-weight: 700;
 }
-.sub_email{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 25px;
-    border: 1px solid white;
-    padding: 20px 30px;
-    border-radius: 5px;
-    background-color: black;
-    color: white;
-    width: 330px;
+.sub_email {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 25px;
+  border: 1px solid white;
+  padding: 20px 30px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  width: 330px;
 }
-.sub_btn{
-    font-size: 25px;
-    font-weight: 700;
-    background-color: #005fac;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 20px 30px;
+.sub_btn {
+  font-size: 25px;
+  font-weight: 700;
+  background-color: #005fac;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 20px 30px;
 }
-.sub_btn:hover{
-    background-color: #3ec0ec;
+.sub_btn:hover {
+  background-color: #3ec0ec;
+}
+
+/* copyright area */
+.copyright {
+  margin-top: 80px;
+  color: white;
+  text-align: center;
 }
