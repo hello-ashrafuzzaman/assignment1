@@ -4,153 +4,180 @@
 }
 
 /* main Display max width content */
-main{
-    max-width: 1440px ;
-    margin: 0 auto;
+main {
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 /* Banner section CSS Design Start */
-.banner_container{
-    background-image: url(../images/banner/banner3.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    text-align: right;
-    padding-right: 300px;
-    margin-bottom: 133px;
+.banner_container {
+  background-image: url(../images/banner/banner3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  text-align: right;
+  padding-right: 300px;
+  margin-bottom: 133px;
 }
 
-.banner_title{
-    font-size: 65px;
-    font-weight: 700;
-    color: white;
+.banner_title {
+  font-size: 65px;
+  font-weight: 700;
+  color: white;
 }
-.banner_description{
-    color: white;
-    font-weight: 400;
-    font-size: 18px;
-    margin-top: 24px;
-    margin-bottom: 32px;
+.banner_description {
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 24px;
+  margin-bottom: 32px;
 }
-.banner_btn{
-    font-size: 20px;
-    font-weight: 600;
-    padding: 20px 40px;
-    border: none;
-    border-radius: 5px;
-    color: #005FAC ;
+.banner_btn {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px 40px;
+  border: none;
+  border-radius: 5px;
+  color: #005fac;
 }
-.banner_btn:hover{
-    background-color: #3ec0ec;
-    color: white;
+.banner_btn:hover {
+  background-color: #3ec0ec;
+  color: white;
 }
 
 /* My failures Section CSS Design Start */
 
-.my_failures_contaier{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+.my_failures_contaier {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.my_failures_content{
-    margin-left: 90px;
+.my_failures_content {
+  margin-left: 90px;
 }
-.failures_title{
-    font-size: 40px;
-    font-weight: 700;
+.failures_title {
+  font-size: 40px;
+  font-weight: 700;
 }
-.failures_description{
-    font-size: 18px;
-    width: 420px;
-    margin-top: 24px;
-    margin-bottom: 24px;
-    color: #757575;
+.failures_description {
+  font-size: 18px;
+  width: 420px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  color: #757575;
 }
-.img_done_list{
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    font-size: 18px;
-    margin-top: 20px;
-    
+.img_done_list {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-size: 18px;
+  margin-top: 20px;
 }
-.checkmark_icon{
-    height: 20px;
-    width: 20px;
-    margin-right: 5px;
+.checkmark_icon {
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
 }
 
 /* my plans section CSS Design Start */
-.plan_container{
-    text-align: center;
-    margin-top: 133px;
-    margin-bottom: 133px;
+.plan_container {
+  text-align: center;
+  margin-top: 133px;
+  margin-bottom: 133px;
 }
-.plan_head_title{
-    font-weight: 700;
-    font-size: 40px;
-    margin-bottom: 80px;
+.plan_head_title {
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 80px;
 }
-.all_plan_item{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
+.all_plan_item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
 }
-.plan_title{
-    font-weight: 700;
-    font-size: 30px;
-    margin-top: 20px;
+.plan_title {
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: 20px;
 }
-.plan_description{
-    font-size: 25px;
-    font-weight: 500;
-    margin-top: 10px;
-    color: #757575;
-    text-align: center;
+.plan_description {
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 10px;
+  color: #757575;
+  text-align: center;
 }
 
-.plan_item:hover{
-    color: #3ec0ec;
-
+.plan_item:hover {
+  color: #3ec0ec;
 }
 
 /* Next Year Plan section CSS Design Start */
-.next_year_plan_container{
-    text-align: center;
-    margin-top: 133px;
-    margin-bottom: 133px;
+.next_year_plan_container {
+  text-align: center;
+  margin-top: 133px;
+  margin-bottom: 133px;
 }
-.next_year_all_item{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.next_year_all_item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.next_year_item{
-    width: 15%;
-    height: 300px;
-    border-radius: 10px;
-    /* background-color: rgb(247, 247, 243); */
-    background-color: #f4f8f9;
-    text-align: center;
+.next_year_item {
+  width: 15%;
+  height: 300px;
+  border-radius: 10px;
+  /* background-color: rgb(247, 247, 243); */
+  background-color: #f4f8f9;
+  text-align: center;
 }
-.next_year_item:hover{
-    color: white;
-    background-color: #3fc0e8;
+.next_year_item:hover {
+  color: white;
+  background-color: #3fc0e8;
 }
-.next_year_img{
-    margin-top: 70px;
-    margin-bottom: 10px;
-    height: 80px;
-    width: 80px;
+.next_year_img {
+  margin-top: 70px;
+  margin-bottom: 10px;
+  height: 80px;
+  width: 80px;
 }
-.next_year_title{
-
+.next_year_title {
 }
 
 /* Positive Mindset section CSS Design Start */
+.positive_content {
+  margin-bottom: 133px;
+  background-image:url(../images/watch.png), linear-gradient(rgba(175, 220, 250, 0.4),rgb(255, 0, 85)),url(../images/gradient1.png) ;
+  background-blend-mode: overlay;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  padding: 100px;
+}
+.posstive_title{
+    color: white;
+    font-weight: 800;
+    font-size: 40px;
+}
+.call_btn{
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 40px;
+    color: #005fac;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.call_btn:hover{
+    background-color: #3ec0ec;
+    color: white;
+}
+
+/* footer css design start */
