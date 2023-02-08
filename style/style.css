@@ -152,7 +152,9 @@ main {
 /* Positive Mindset section CSS Design Start */
 .positive_content {
   margin-bottom: 133px;
-  background-image:url(../images/watch.png), linear-gradient(rgba(175, 220, 250, 0.4),rgb(255, 0, 85)),url(../images/gradient1.png) ;
+  background-image: url(../images/watch.png),
+    linear-gradient(rgba(175, 220, 250, 0.4), rgb(255, 0, 85)),
+    url(../images/gradient1.png);
   background-blend-mode: overlay;
 
   background-repeat: no-repeat;
@@ -160,24 +162,76 @@ main {
   border-radius: 10px;
   padding: 100px;
 }
-.posstive_title{
-    color: white;
-    font-weight: 800;
-    font-size: 40px;
+.posstive_title {
+  color: white;
+  font-weight: 800;
+  font-size: 40px;
 }
-.call_btn{
-    background-color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 20px 40px;
-    color: #005fac;
-    font-weight: 700;
-    font-size: 20px;
-    margin-top: 20px;
+.call_btn {
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 20px 40px;
+  color: #005fac;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 20px;
 }
-.call_btn:hover{
-    background-color: #3ec0ec;
-    color: white;
+.call_btn:hover {
+  background-color: #3ec0ec;
+  color: white;
 }
 
 /* footer css design start */
+footer {
+  background-color: black;
+  color: white;
+  padding: 130px;
+}
+.main_size {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footer_details {
+  width: 485px;
+}
+.footer_details h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.footer_details p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.footer_details img {
+  margin-right: 5px;
+}
+.subscribe_details h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.sub_email{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    border: 1px solid white;
+    padding: 20px 30px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    width: 330px;
+}
+.sub_btn{
+    font-size: 25px;
+    font-weight: 700;
+    background-color: #005fac;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 30px;
+}
+.sub_btn:hover{
+    background-color: #3ec0ec;
+}
